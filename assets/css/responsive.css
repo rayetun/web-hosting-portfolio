@@ -1,0 +1,92 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu li a {
+        padding: 15px 4px;
+        font-size: 13px;
+    }
+    .contact-menu img {
+        top: 5px;
+    }
+    .contact-menu a {
+        line-height: 15px;
+        padding-left: 25px;
+    }
+    .contact-menu a span {
+        padding-left: 25px;
+    }
+    .hero-content {
+        padding-top: 50px;
+    }
+    .hero-bg {
+	right: 0;
+	height: 88%;
+	width: 42%;
+
+}
+    .single-about-box {
+        min-height: 200px;
+        padding-left: 70px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    .about-service-list .row .col-sm-6 {
+        margin: 0;
+        padding: 0;
+    }
+    .about-us-img {
+        left: -10px;
+        top: 105px;
+        height: 350px;
+    }
+    .section-padding.about-us-area {
+        padding: 30px 0px;
+    }
+    .cta-area .boxed-btn {
+        margin-top: 7px;
+    }
+    .project-filter li {
+        padding: 16px 0px 0px 0px;
+        font-size: 14px;
+        margin: 5px 20px;
+    }
+    .single-price-list {
+        margin-top: 20px;
+    }
+    .custome-tab .tab-list li {
+        padding-bottom: 10px;
+        display: inline-block;
+        padding-right: 10px;
+    }
+    .single-service-item {
+	height: 250px;
+}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .hero-area {
+	min-height: 1050px;
+}
+    .hero-bg {
+	bottom: -36%;
+	right: 0;
+	height: 51%;
+	width: 100%;
+}
+    .cta-area {
+	margin-top: 377px;
+}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
